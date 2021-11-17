@@ -25,7 +25,6 @@ public class User {
 
   @Override
   public int hashCode() {
-    return Objects.hash(
-            email, firstName, lastName, birthday, phone);
+    return Objects.hash(email, firstName, lastName, birthday, phone);
   }
 }
